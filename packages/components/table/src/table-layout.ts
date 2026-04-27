@@ -43,7 +43,7 @@ class TableLayout<T extends DefaultRow> {
     this.bodyWidth = ref(null)
     this.fixedWidth = ref(null)
     this.rightFixedWidth = ref(null)
-    this.gutterWidth = 0
+    this.gutterWidth = 16
     for (const name in options) {
       if (hasOwn(options, name)) {
         if (isRef(this[name])) {
